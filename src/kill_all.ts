@@ -1,5 +1,5 @@
 import { NS } from "@ns";
-import { fillArray } from "utils/fillArray";
+import { fillArray } from "utils/utils";
 
 export async function main(ns: NS): Promise<void> {
   const HOST_PREFIX = "pserv-";
